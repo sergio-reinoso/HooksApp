@@ -30,7 +30,6 @@ describe('Pruebas en todoReducer', () => {
         expect( newState.length ).toBe( 2 )
         expect( newState ).toContain(action.payload)
 
-
     })
 
     test('debe de eliminar un todo', () => {
