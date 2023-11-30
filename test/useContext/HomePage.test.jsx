@@ -23,7 +23,7 @@ describe('Pruebs en <HomePage />', () => {
 
     })
 
-    test('debe de mostrar el componente sin el usuario', () => {
+    test('debe de mostrar el componente con el usuario', () => {
 
         render(
             <UserContext.Provider value={ {user} } >
