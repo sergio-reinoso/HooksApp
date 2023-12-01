@@ -32,7 +32,6 @@ describe('Pruebas en <LoginPage />', () => {
 
         expect( setUserMock ).toHaveBeenCalledWith({"email": "juan@gmail.com", "id": 123, "name": "Juan"})
 
-
     })
 
 })
